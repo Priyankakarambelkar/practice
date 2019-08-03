@@ -1,0 +1,11 @@
+<div class="row mt-3">
+    <div class="col-md-12">
+        <input type="text" #mob>
+        <input type="button" value="Okay" class="ml-2 btn btn-info" (click)="onBtn(mob.value)">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <a [routerLink]="['chat','sdfdjk']" [queryParams]="{ some:'asdasf', someOther:'sadafsdfd' }">Chat App</a>
+    </div>
+</div>
